@@ -25,8 +25,9 @@
 目前有部署公共服务器： [http://drcd.xausky.cn/](https://drcd.xausky.cn/)  
 
 **自行部署：**
-> docker run --restart=always -d -p 3000:3000 xausky/drcd:master
-
+```bash
+docker run --restart=always -d -p 3000:3000 xausky/drcd:master
+```
 
 ## :dart: 功能
 
