@@ -23,7 +23,10 @@
 
 在支持的仓库上可以通过浏览器实现无客户端下载功能，对直接下载服务的服务器端压力很小。  
 目前有部署公共服务器： [http://drcd.xausky.cn/](https://drcd.xausky.cn/)  
-也可以使用[此 Docker 镜像](https://hub.docker.com/repository/docker/xausky/drcd)自行部署
+
+**自行部署：**
+> docker run --restart=always -d -p 3000:3000 xausky/drcd:master
+
 
 ## :dart: 功能
 
